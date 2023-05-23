@@ -1,0 +1,8 @@
+resources:
+  - url: http://127.0.0.1:5000/sip-mode.js
+    type: module
+views:
+  - cards:
+      - type: custom:bsip-mode
+        name: SIP Mode
+        test_gui: true
